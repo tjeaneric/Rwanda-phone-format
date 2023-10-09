@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "rwandaphoneformat"
-version = "0.1.8"
+version = "0.1.9"
 description = ""
 authors = ["Jean Eric TUYISHIMIRE <ericjohn415@gmail.com>"]
 readme = "README.md"
