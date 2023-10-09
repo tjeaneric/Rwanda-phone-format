@@ -21,7 +21,7 @@ jobs:
         python-version: '3.x'
     - name: Mark github workspace as safe
       run: |
-            git config --global --add safe.directory /github/workspace
+            git config --global --add safe.directory '*'
     - name: Build and publish to pypi
       uses: JRubics/poetry-publish@v1.17
       with:
