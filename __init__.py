@@ -1,1 +1,0 @@
-from .rwandaphoneformat import in_250_format

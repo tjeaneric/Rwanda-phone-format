@@ -1,4 +1,10 @@
 def in_250_format(phone_number: str) -> str:
+    """
+    This function formats a phone number and returns it in a 250 format (250780000000)
+    If the length of the phone number is less than 9, it raises a ValueError error
+    :param phone_number: string representation of a phone number, e.g. 0780000000
+    :return: Newly formatted phone number as a string
+    """
     phone_number = phone_number.strip()
     if len(phone_number) < 9:
         raise ValueError("Phone number must be greater than or equal to 9 characters")
