@@ -6,8 +6,7 @@ def in_250_format(phone_number: str) -> str:
     :return: Newly formatted phone number as a string
     """
     phone_number = phone_number.strip()
-    if len(phone_number) < 9:
-        raise ValueError("Phone number must be greater than or equal to 9 characters")
+
     first_three, first_two = phone_number[0:3], phone_number[0:2]
     phone_number_length = len(phone_number)
     if phone_number_length == 9 and phone_number.startswith("7"):
